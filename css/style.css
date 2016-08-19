@@ -1,0 +1,94 @@
+body {
+  font-family: 'Muli', sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 10rem;
+  padding-top: 15rem;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+p {
+  line-height: 1.5rem;
+}
+.btn-large {
+  margin-top: 1.5rem;
+}
+
+.heather {
+  position: relative;
+  height: 500px;
+  background: url("../photos/heather.jpg") 50% 5%;
+  background-size: cover;
+}
+
+.joanna {
+  position: relative;
+  height: 500px;
+  background: url("../photos/joanna.jpg") 50% 5%;
+  background-size: cover;
+}
+
+.bryony {
+  position: relative;
+  height: 500px;
+  background: url("../photos/bryony.jpg") 50% 5%;
+  background-size: cover;
+}
+
+.chase {
+  position: relative;
+  height: 500px;
+  background: url("../photos/chase.jpg") 50% 5%;
+  background-size: cover;
+}
+
+.joanna2 {
+  position: relative;
+  height: 500px;
+  background: url("../photos/joanna2.jpg") 50% 5%;
+  background-size: cover;
+}
+
+.ben {
+  position: relative;
+  height: 500px;
+  background: url("../photos/ben.jpg") 50% 5%;
+  background-size: cover;
+}
+
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+footer.page-footer {
+  margin: 0;
+}
