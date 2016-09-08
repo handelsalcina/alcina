@@ -24,19 +24,19 @@ p {
 .heather {
   position: relative;
   height: 500px;
-  background: url("../photos/heather.jpg") 50% 5%;
+  background: url("../photos/heather.jpg") 50% 15%;
   background-size: cover;
 }
 .joanna {
   position: relative;
   height: 500px;
-  background: url("../photos/joanna.jpg") 50% 5%;
+  background: url("../photos/joanna.jpg") 50% 30%;
   background-size: cover;
 }
 .bryony {
   position: relative;
   height: 500px;
-  background: url("../photos/bryony.jpg") 50% 5%;
+  background: url("../photos/bryony.jpg") 50% 30%;
   background-size: cover;
 }
 .chase {
